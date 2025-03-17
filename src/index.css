@@ -67,3 +67,46 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  margin-left: 10px;
+}
+
+.foodList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.foodCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.foodDetails {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.foodPic img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.foodText {
+  text-align: start;
+}
