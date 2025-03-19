@@ -1,7 +1,10 @@
 export default function FoodBox({ food, handleDelete }) {
   return (
     <div className="foodCard">
-      <h2>{food.name}</h2>
+      <div className="title">
+        <h2>{food.name}</h2>
+      </div>
+
       <div className="foodDetails">
         <div className="foodPic">
           <img src={`${food.image}`} />
